@@ -1,0 +1,55 @@
+name: bloodapp2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.1.0
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.3
+  flutter_svg: ^0.23.0+1
+  flutter_switch: ^0.3.2
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.18.0
+  curved_navigation_bar: ^1.0.3
+  http: ^0.13.5
+  flutter_html: ^2.2.1
+  tuple: ^2.0.1
+  pull_to_refresh: ^2.0.0
+  loading_indicator: ^3.1.0
+  awesome_dialog: ^3.0.2
+  google_fonts: ^3.0.1
+  dropdown_button2: ^1.9.2
+  flutter_datetime_picker: ^1.5.1
+  flutter_easyloading: ^3.0.5
+  graphql_flutter: ^5.1.0
+  app_links: ^3.4.1
+  qr_code_scanner: ^1.0.1
+  form_validator: ^2.1.1
+  find_dropdown: ^1.0.0
+  
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Be Vietnam Pro
+      fonts: 
+        - asset: assets/fonts/BeVietnamProRegular.ttf
+          weight: 400
+        - asset: assets/fonts/BeVietnamProSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BeVietnamProLight.ttf
+          weight: 300
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
